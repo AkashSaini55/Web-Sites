@@ -1,0 +1,766 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.body {
+    background-color: rgb(15, 15, 15);
+}
+
+.hed {
+    background-color: #222222;
+    color: white;
+}
+
+.head {
+    border-bottom: 1px solid rgb(187, 186, 186);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+i {
+    font-size: 23px;
+    font-weight: 400;
+    position: relative;
+    top: 4px;
+}
+
+.box {
+
+    height: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    width: 310px;
+    padding: 0px 20px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+img {
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.img {
+    position: absolute;
+    top: 7px;
+    left: 45%;
+}
+
+.con {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+    width: 170px;
+    margin-right: 25px;
+
+}
+
+.sear {
+    display: flex;
+    align-items: center;
+    width: 210px;
+    padding: 10px;
+    height: 28px;
+    border: 2px solid rgba(68, 169, 100, 0.662);
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+    background-color: rgba(128, 186, 146, 0.167);
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#inpu::placeholder {
+    color: black;
+    font-weight: 350;
+    font-size: 12px;
+}
+
+
+
+.ri-search-line {
+    font-size: 12px;
+    font-size: 14px;
+    font-weight: 350;
+}
+
+#icon {
+    position: absolute;
+    right: 210px;
+    top: 0px;
+    cursor: pointer;
+
+}
+
+#icon2 {
+    font-size: 12px;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: 350;
+    color: rgba(121, 120, 120, 0.724)
+}
+
+
+#inpu {
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 15px;
+    position: relative;
+    top: -10px;
+}
+
+#dark {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    font-size: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 14px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    font-family: 300;
+    color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.not {
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+
+}
+
+.not i {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(26, 25, 25, 0.829);
+
+}
+
+.tran {
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+}
+
+.tran i {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(26, 25, 25, 0.829);
+}
+
+.login {
+    border: none;
+    outline: none;
+    width: fit-content;
+    padding: 6px 18px;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: #273239;
+    color: white;
+    cursor: pointer;
+}
+
+.ri-close-line {
+
+    font-size: 17px;
+    color: rgba(64, 63, 63, 0.842);
+    top: 7px;
+    left: 7px;
+}
+
+.no {
+    color: white;
+}
+
+.background {
+
+    background-color: #7070705e;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    display: none;
+}
+
+.page {
+    display: block;
+}
+
+.logpage {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    margin: auto;
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+}
+
+#crose {
+    position: absolute;
+    left: 94%;
+    top: 5px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 450;
+}
+
+.new {
+    color: #707070;
+    font-size: 14px;
+
+}
+
+a {
+    text-decoration: none;
+    margin-left: 8px;
+    cursor: pointer;
+    color: rgb(37, 126, 209);
+    font-size: 14px;
+}
+
+.google {
+    border: 1px solid #e4e4ea;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    border-radius: 6px;
+    height: 35px;
+    font-weight: 380;
+    margin: 10px auto;
+}
+
+.google img {
+    width: 25px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.logo {
+    margin: 15px auto;
+    display: flex;
+    width: 55%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50px;
+    width: 25px;
+}
+
+.line {
+    text-align: center;
+}
+
+.line p {
+    position: relative;
+}
+
+.line p::before {
+    content: " ";
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    width: 47%;
+    height: 0.1px;
+    background-color: #c1bebebe;
+}
+
+.line p::after {
+    content: " ";
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    width: 47%;
+    height: 0.1px;
+    background-color: #c1bebebe;
+}
+
+.form input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #a4a0a0be;
+    border-radius: 6px;
+    padding: 7px 15px;
+    margin: 8px 0px;
+}
+
+label {
+    font-size: 15px;
+}
+
+
+.for,
+.pr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pr p {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #707070;
+}
+
+
+.sign {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 4px;
+    height: 35px;
+    color: white;
+    background-color: rgb(16, 108, 80);
+}
+
+.tram {
+    text-align: center;
+    font-size: 11px;
+}
+
+.tram {
+    color: #707070;
+}
+
+.tram span {
+    color: black;
+}
+
+.hov {
+
+    width: 50px;
+
+}
+
+.hov:hover .list {
+    display: block;
+}
+
+.hov:hover i {
+    transform: rotate(180deg);
+}
+
+.list {
+    padding: 5px 0px;
+    width: 150px;
+    background-color: #ffffff;
+    position: relative;
+    left: -10px;
+    bottom: -8px;
+    display: none;
+      z-index: 20; 
+}
+
+
+.list::after {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(16, 108, 80);
+}
+
+.list li {
+    padding: 8px;
+    list-style-type: none;
+
+}
+
+.list li:hover {
+    background-color: #9b9a9a;
+}
+
+.lis ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.lis ul li {
+    height: 30px;
+    width: fit-content;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 11px;
+    padding: 10px;
+    font-weight: 400;
+    text-align: center;
+ 
+}
+
+.lis ul li:hover {
+    color: rgb(30, 155, 118);
+}
+
+
+.part1 {
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(180deg, #e6fff8, #fff);
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.part1dark {
+    background: linear-gradient(180deg, #3b3b3b, #111112);
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.2rem;
+    margin-bottom: 50px;
+}
+
+#pageser {
+    outline: none;
+    background-color: transparent;
+    height: 50px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: #9b9a9a;
+}
+
+.se {
+    position: absolute;
+    top: 48%;
+    right: 16%;
+}
+
+
+#icn {
+    font-size: 30px;
+    color: rgb(30, 155, 118);
+}
+
+.fac {
+
+    display: flex;
+    margin-top: 20px;
+}
+
+.tex {
+    border: 0.5px solid rgba(65, 65, 65, 0.497);
+    border-radius: 5px;
+    font-size: 9px;
+    width: fit-content;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-weight: 300;
+    padding: 7px;
+}
+
+.texdark {
+    background: #494d51;
+    color: white;
+}
+
+.part2 {
+    width: 100%;
+    height: 600px;
+    font-family: "Nunito", sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 5 00;
+    margin-left: 122px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    height: 250px;
+    width: 200px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 55px;
+    margin-bottom: 30px;
+}
+
+.card .im {
+    width: 100%;
+}
+
+.rete {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: #111112;
+    border-radius: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 4px;
+
+}
+
+.big {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #707070;
+    font-weight: 300;
+    margin-top: 22px;
+    padding: 0px 5px;
+}
+
+.si {
+    font-size: 8px;
+}
+
+.card .svg {
+    width: 20px;
+    height: 15px;
+    object-position: bottom;
+    object-fit: cover;
+}
+
+.card .bg {
+    margin-left: 5px;
+    margin-right: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: url(img/College_org-icons-1.svg);
+    background-position: -13px -184px;
+
+}
+
+.card .big .bt {
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    color: rgb(30, 155, 118);
+    background-color: transparent;
+    font-weight: 700;
+}
+
+.card:hover .bt {
+    background-color: rgb(30, 155, 118);
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .122)
+}
+
+
+.card-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.part3 {
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    height: 160px;
+   margin: 20px 0px;
+}
+
+.fle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.exp {
+    width: 185px;
+    font-size: 15px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    background: rgb(174, 132, 209);
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.ar {
+    font-weight: 400;
+    position: relative;
+    left: 90%;
+    font-size: 14px;
+    top: 8px;
+}
+
+.exp:hover .ar {
+
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.h {
+    color: white;
+}
+
+.part4 {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  padding: 10px 50px;
+  position: relative;
+}
+
+.xp {
+    width: 320px;
+    height: 160px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+    background: linear-gradient(rgb(76, 175, 151) 0%, rgb(81, 198, 171) 100%);
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.xp button {
+    border: 1px solid white;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    margin-top: 15px;
+}
+
+.xp:hover button {
+    background-color: white;
+    color: rgb(30, 155, 118);
+    transition: 0.7s;
+}
+
+.ee{
+    position: absolute;
+    top: -15px;
+    left: -2px;
+}
+
+.xp:nth-child(3){
+    background:linear-gradient(rgb(90, 94, 183) 0%, rgb(112, 117, 234) 100%);
+}
+.xp:nth-child(4){
+    background:linear-gradient(rgb(175, 97, 96) 0%, rgb(202, 138, 137) 100%);
+}
+.xp:nth-child(5){
+    background: linear-gradient(rgb(103, 74, 152) 0%, rgb(165, 148, 195) 100%);
+}
+.xp:nth-child(6){
+    background: linear-gradient(rgb(37, 135, 156) 0%, rgb(84, 195, 219) 100%);
+}
+.xp:nth-child(7){
+    background: linear-gradient(rgb(69, 114, 182) 0%, rgb(120, 158, 218) 100%);
+}
+.xp:nth-child(8){
+    background: linear-gradient(rgb(204, 115, 62) 0%, rgb(234, 163, 120) 100%);
+}
+.xp:nth-child(9){
+    background: linear-gradient(rgb(241, 99, 124) 0%, rgb(227, 153, 166) 100%);
+}
+
+
+.part5 {
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    height: 160px;
+   margin: 20px 0px;
+}
+
+.exp2 {
+    width: 185px;
+    font-size: 15px;
+    height: 72px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    background:rgb(84, 134, 189);
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.exp2:hover .ar {
+
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+#auto{
+    position: absolute;
+    top: 51%;
+    left: 17%;
+    color:#9b9a9a;
+    font-size: 14px;
+     font-family: "Nunito", sans-serif;
+}
