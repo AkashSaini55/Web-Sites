@@ -200,7 +200,7 @@ function scrolloranimetion() {
         scrollTrigger: {
             trigger: ".page8-scr",
             scroller: "#main",
-            start: "top 90%",
+            start: "top 70%",
             end: "top 10%",
             scrub: true,
         }
